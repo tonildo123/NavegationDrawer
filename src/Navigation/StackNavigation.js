@@ -1,11 +1,14 @@
+/* eslint-disable no-trailing-spaces */
 /* eslint-disable quotes */
 import React from 'react';
+import Icon from 'react-native-vector-icons/Ionicons';
 import { createStackNavigator } from '@react-navigation/stack';
 import { HomeScreens } from '../Screens/HomeScreens';
 import { Windows2Screens } from '../Screens/Windows2Screens';
 import { Windows3Screens } from '../Screens/Windows3Screens';
 import { Windows4Screens } from '../Screens/Windows4Screens';
 import { PersonaScreens } from '../Screens/PersonaScreens';
+import { Text, View } from 'react-native';
 
 
 const Stack = createStackNavigator();

@@ -14,7 +14,7 @@ export const styles = StyleSheet.create({
     },
     styleTextButton:{
         fontSize:25,
-        color:'whirte',
+        color:'white',
 
     },
     containerButton:{
@@ -41,5 +41,26 @@ export const styles = StyleSheet.create({
         justifyContent:'center',
         margin:10,
     },
+    avatarContainer:{
+        alignItems:'center',
+        margin:20,
+    },
+    avatar:{
+        height:150,
+        width:150,
+        borderRadius:80,
+    },
+    menuContainer: {
+        marginVertical: 30,
+        marginHorizontal: 50,
+    },
+    menuBoton: {
+        marginVertical: 10,
+    },
+    menuTexto: {
+        fontSize: 20,
+        color:'black',
+    },
+
 
 });

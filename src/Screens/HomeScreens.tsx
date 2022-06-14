@@ -1,6 +1,7 @@
 /* eslint-disable eol-last */
 /* eslint-disable jsx-quotes */
 import React from 'react';
+import Icon from 'react-native-vector-icons/Ionicons';
 import {Text, View, Button,TouchableOpacity } from 'react-native';
 import {StackScreenProps} from '@react-navigation/stack';
 import { styles } from '../theme/themeScreen';
@@ -28,12 +29,14 @@ export const HomeScreens = ( {navigation} : Props ) => {
           })  }
 
         >
-            <Text style={styles.styleTextButton}>Pedro</Text>
+            <Text >
+              <Icon name="person-circle-outline" size={50} color="#900" />
+            </Text>
 
         </TouchableOpacity>
 
         <TouchableOpacity
-        style={styles.styleB2}
+          style={styles.styleB2}
           onPress={ () => navigation.navigate('PersonaScreens', {
             id:2,
             nombre:'Pablo',
@@ -41,7 +44,9 @@ export const HomeScreens = ( {navigation} : Props ) => {
           })  }
 
         >
-            <Text style={styles.styleTextButton}>Pablo</Text>
+            <Text >
+              <Icon name="person-outline" size={50} color="#900" />
+            </Text>
 
         </TouchableOpacity>
         </View>
